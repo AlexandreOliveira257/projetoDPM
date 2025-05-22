@@ -257,25 +257,25 @@ footer {
     
 }
 
-.social-icons :nth-of-type(1){
+.social-icons a:nth-of-type(1){
     background-image: url(imgs/2023_Facebook_icon.svg.webp);
     background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
 }
-.social-icons :nth-of-type(2){
+.social-icons a:nth-of-type(2){
     background-image: url(imgs/X_icon.svg.png);
     background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
 }
-.social-icons :nth-of-type(3){
+.social-icons a:nth-of-type(3){
     background-image: url(imgs/Instagram_logo_2016.svg.webp);
     background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
 }
-.social-icons :nth-of-type(4){
+.social-icons a:nth-of-type(4){
     background-image: url(imgs/images.png);
     background-size: cover;
 background-position: center;
