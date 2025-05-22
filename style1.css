@@ -80,6 +80,7 @@ nav ul li a:hover {
 /* Catálogo de Jogos */
 .games {
     padding: 4rem 2rem;
+    
 }
 
 .section-title {
@@ -91,8 +92,8 @@ nav ul li a:hover {
 
 .games-grid {
     display: grid;
-    grid-template-columns: repeat(4, 280px); /* 3 colunas de 280px */
-    grid-template-rows: repeat(2, auto);     /* 2 linhas, altura automática */
+    grid-template-columns: repeat(4, 280px); 
+    grid-template-rows: repeat(2, auto);     
     gap: 2rem;
     justify-content: center;
 }
@@ -253,8 +254,33 @@ footer {
     background-color: #1e1e1e;
     border-radius: 50%;
     transition: background-color 0.3s;
+    
 }
 
+.social-icons :nth-of-type(1){
+    background-image: url(imgs/2023_Facebook_icon.svg.webp);
+    background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+.social-icons :nth-of-type(2){
+    background-image: url(imgs/X_icon.svg.png);
+    background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+.social-icons :nth-of-type(3){
+    background-image: url(imgs/Instagram_logo_2016.svg.webp);
+    background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+.social-icons :nth-of-type(4){
+    background-image: url(imgs/images.png);
+    background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
 .social-icons a:hover {
     background-color: #ff6b00;
 }
