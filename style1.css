@@ -207,7 +207,7 @@ nav ul li a:hover {
 
 
 /* Ecrãs até 560px → 1 coluna */
-@media (max-width: 560px) {
+@media (max-width: 1125px) {
   .categories-grid {
     grid-template-columns: repeat(1, 1fr);
     justify-content: center;
