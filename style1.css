@@ -92,7 +92,7 @@ nav ul li a:hover {
 
 .games-grid {
   display: grid;
-  grid-template-columns: repeat(5, 280px); /* 5 colunas fixas */
+  grid-template-columns: repeat(7, 280px); /* 5 colunas fixas */
   gap: 2rem;
   justify-content: center;
   padding: 2rem;
