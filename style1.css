@@ -202,8 +202,17 @@ nav ul li a:hover {
 .categories-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-
     gap: 2rem;
+}
+
+
+/* Ecrãs até 560px → 1 coluna */
+@media (max-width: 560px) {
+  .categories-grid {
+    grid-template-columns: repeat(1, 280px);
+    justify-content: center;
+  }
+  
 }
 
 .category-card {
