@@ -8,6 +8,10 @@ Descrição projeto: O projeto consiste na criação de um site de venda de jogo
 Tecnologias Utilizadas:
 -- HTML, CSS, JavaScript 
 
+## Scan QR to visit
+
+![QR Code](imgs/qrcode/qr_site.png)
+
 
 ## autor
 Alexandre Oliveira & Miguel Janeiro
