@@ -99,7 +99,7 @@ nav ul li a:hover {
 }
 
 /* Ecrãs até 1400px → 4 colunas */
-@media (max-width: 1900px) {
+@media (max-width: 1600px) {
   .games-grid {
     grid-template-columns: repeat(4, 280px);
   }
