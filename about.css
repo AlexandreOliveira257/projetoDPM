@@ -1,0 +1,65 @@
+/* About Page Specific Styles */
+
+/* Hero Section */
+.about-hero {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-description {
+    max-width: 700px;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+/* About Sections */
+.about-section-dark {
+    padding: 4rem 6rem;
+    background-color: #1e1e1e;
+    text-align: center;
+}
+
+.about-content {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.about-content h2 {
+    color: #ff6b00;
+    margin-bottom: 1rem;
+}
+
+.about-paragraph {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.about-paragraph:last-child {
+    margin-bottom: 0;
+}
+
+/* Community Section */
+.community-section {
+    padding: 4rem 6rem;
+    background-color: #121212;
+    text-align: center;
+}
+
+.community-content {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.community-content h2 {
+    color: #ff6b00;
+    margin-bottom: 1rem;
+}
+
+.community-paragraph {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
