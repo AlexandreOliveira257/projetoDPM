@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation</title>
+    <link rel="stylesheet" href="keygen.css">   
+</head>
+<script src="keygen.css"></script>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <nav class="header">
+            <a href="index.html">
+            <img src="imgs/site/logo.svg" alt="logo"
+            width="275px">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#games">Games</a></li>
+                <li><a href="index.html#categories">Categories</a></li>
+                <li><a href="about.html">About</a></li>
+                <li id="login"><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Conteúdo Principal -->
+    <main class="main-content">
+        <div class="confirmation-container">
+            <!-- Loading State -->
+            <div id="loading-state" class="loading-state">
+                <div class="loading-spinner"></div>
+                <h2>Generating Your Game Key...</h2>
+                <p>Please wait while we prepare your digital download.</p>
+                <div class="progress-bar">
+                    <div class="progress-fill"></div>
+                </div>
+            </div>
+
+            <!-- Success State -->
+            <div id="success-state" class="success-state" style="display: none;">
+                <div class="success-icon">✅</div>
+                <h1 class="confirmation-title">Order Confirmed!</h1>
+                <p class="confirmation-subtitle">Thank you for your purchase. Your game key is ready!</p>
+
+                <!-- Game Info -->
+                <div class="game-info">
+                    <div class="game-image">
+                        <img id="game-cover" src="imgs/games/cyberpunk2077.jpg" alt="Game Cover">
+                    </div>
+                    <div class="game-details">
+                        <h3 id="game-title">Cyberpunk 2077</h3>
+                        <p id="game-platform">PC - Steam</p>
+                        <p id="game-price">€59.99</p>
+                    </div>
+                </div>
+
+                <!-- Game Key Section -->
+                <div class="key-section">
+                    <h3>Your Game Key:</h3>
+                    <div class="key-container">
+                        <code id="game-key" class="game-key">XXXX-XXXX-XXXX-XXXX</code>
+                        <button id="copy-key" class="copy-btn" title="Copy to clipboard">📋</button>
+                    </div>
+                    <p class="key-note">
+                        <strong>Important:</strong> Save this key in a safe place. You'll need it to activate your game.
+                    </p>
+                </div>
+
+                <!-- Order Details -->
+                <div class="order-details">
+                    <h3>Order Details:</h3>
+                    <div class="detail-row">
+                        <span>Order ID:</span>
+                        <span id="order-id">#SG-001234</span>
+                    </div>
+                    <div class="detail-row">
+                        <span>Purchase Date:</span>
+                        <span id="purchase-date">June 3, 2025</span>
+                    </div>
+                    <div class="detail-row">
+                        <span>Payment Method:</span>
+                        <span id="payment-method">Credit Card</span>
+                    </div>
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="action-buttons">
+                    <button onclick="window.print()" class="btn btn-secondary">Print Receipt</button>
+                    <a href="index.html" class="btn btn-primary">Back to Home</a>
+                </div>
+
+                <!-- Support Info -->
+                <div class="support-info">
+                    <p>Need help? Contact our support team at <a href="mailto:support@shop4games.com">support@shop4games.com</a></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <!-- Rodapé -->
+    <footer>
+        <p class="copyright">© 2025 Shop4Games. All Rights Reserved</p>
+    </footer>
+</body>
+</html>
