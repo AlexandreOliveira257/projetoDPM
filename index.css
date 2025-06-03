@@ -22,29 +22,25 @@ a {
 }
 
 /* Cabeçalho */
-header {
+.header {
     background-color: #0a0a0a;
-    padding: 1rem 2rem;
+    padding: 2rem 6rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: sticky;
     top: 0;
-    z-index: 100;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
-}
-
-.logo {
-    font-size: 2rem;
-    font-weight: bold;
-    color: #ff6b00;
-    text-shadow: 0 0 10px rgba(255, 107, 0, 0.5);
 }
 
 nav ul {
     display: flex;
     list-style: none;
     gap: 2rem;
+}
+
+nav #login {
+    border: #ff6b00;
 }
 
 nav ul li a {
