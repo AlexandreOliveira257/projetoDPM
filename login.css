@@ -87,6 +87,7 @@ nav ul li a:hover {
     width: 100%;
     max-width: 500px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    position: relative;
 }
 
 .login-container::after, .login-container::before {
@@ -94,14 +95,12 @@ nav ul li a:hover {
     position: absolute;
     background: #ff6b00;
     border-radius: 10px;
-    padding: 3rem;
+    padding: 0.15rem;
     height: 100%;
     width: 100%;
     top: 50%;
     left: 50%;
-    translate: -50% -49.5%;
-    max-width: 410px;
-    max-height: 525px;
+    translate: -50% -50%;
     z-index: -1;
 }
 
