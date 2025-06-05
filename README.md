@@ -34,7 +34,7 @@ Tabela de jogos no ecrã do computador com a janela diminuida:
 Tecnologias Utilizadas:
 -- HTML, CSS, JavaScript 
 
-## Scan QR to visit
+## Scan QR para visualizar o website no telemóvel.
 
 ![QR Code](imgs/qrcode/qr_site.png)
 
