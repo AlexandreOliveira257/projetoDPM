@@ -9,13 +9,17 @@ A primeira página inicial irá conter um header e um footer, no header iremos t
 
 -Home -> Redireciona-te para a Página Principal.
 
+
 -Games -> Redireciona-te na mesma página para a tabela de jogos.
+
 
 -Categorys -> Redireciona-te na mesma página para a tabela de categorias.
 
 -About -> Redireciona-te para uma página com detalhes da nossa empresa.
 
+
 -Login -> Redireciona-te para a página Login onde podemos fazer o registro. 
+
 
 ![image](https://github.com/user-attachments/assets/90bf226f-f054-4202-9b94-c0b042b88624)
 
