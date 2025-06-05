@@ -6,7 +6,12 @@ Descrição projeto: O projeto consiste na criação de um site de venda de jogo
 
 
 A primeira página inicial irá conter um header e um footer, no header iremos ter o logotipo da nossa marca e botões que irão levar a pontos específicos relevantes no contexto do botão e outros irão levar-nos para outras paginas html.
-Home -> Redireciona-te para a Página Principal, Games -> Redireciona-te na mesma página para a tabela de jogos, Categorys -> Redireciona-te na mesma página para a tabela de categorias, About -> Redireciona-te para uma página com detalhes da nossa empresa, Login -> Redireciona-te para a página Login onde podemos fazer o registro. 
+
+-Home -> Redireciona-te para a Página Principal.
+-Games -> Redireciona-te na mesma página para a tabela de jogos.
+-Categorys -> Redireciona-te na mesma página para a tabela de categorias.
+-About -> Redireciona-te para uma página com detalhes da nossa empresa.
+-Login -> Redireciona-te para a página Login onde podemos fazer o registro. 
 ![image](https://github.com/user-attachments/assets/90bf226f-f054-4202-9b94-c0b042b88624)
 
 A primeira página inicial contêm iuma tabela de jogos e uma tabela de seleção de categorias, os jogos e as categorias estão contidos numa grid onde implementamos a funcionalidade "Media Query Css" sugerida pelo professor para melhorar a responsividade.
