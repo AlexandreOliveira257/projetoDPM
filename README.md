@@ -5,7 +5,7 @@ Repositório para o projeto da disciplina de Desevolvimento de Produtos Multimé
 Descrição projeto: O projeto consiste na criação de um site de venda de jogos digitais, mais especificamente com códigos de ativação (Keys), utilizando HTML, CSS e JavaScript. O objetivo é desenvolver uma plataforma simples, intuitiva e segura, onde o utilizador pode navegar, visualizar, e adquirir os jogos.
 
 
-A Página Principal irá conter um header e um footer, no header iremos ter o logotipo da nossa marca e botões que irão levar a pontos específicos relevantes no contexto do botão e outros irão levar-nos para outras paginas html.
+A Página Principal irá conter um header e um footer, no header iremos ter o logotipo da nossa marca e botões que irão levar a pontos específicos relevantes no contexto relativamente descrito no botão e outros irão levar-nos para outras paginas html.
 
 -Home -> Redireciona-te para a Página Principal.
 
