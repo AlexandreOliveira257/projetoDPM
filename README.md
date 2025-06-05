@@ -13,7 +13,7 @@ A primeira página inicial irá conter um header e um footer, no header iremos t
 -Games -> Redireciona-te na mesma página para a tabela de jogos.
 
 
--Categorys -> Redireciona-te na mesma página para a tabela de categorias.
+-Categories -> Redireciona-te na mesma página para a tabela de categorias.
 
 -About -> Redireciona-te para uma página com detalhes da nossa empresa.
 
