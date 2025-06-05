@@ -4,11 +4,12 @@ Repositório para o projeto da disciplina de Desevolvimento de Produtos Multimé
 
 Descrição projeto: O projeto consiste na criação de um site de venda de jogos digitais, mais especificamente com códigos de ativação (Keys), utilizando HTML, CSS e JavaScript. O objetivo é desenvolver uma plataforma simples, intuitiva e segura, onde o utilizador pode navegar, visualizar, e adquirir os jogos.
 
-A primeira página inicial contêm jogos e seleção de categorias, os jogos e as categorias estão contidos numa grid onde implementamos a funcionalidade "Media Query Css" sugerida pelo professor para melhorar a responsividade.
+A primeira página inicial contêm iuma tabela de jogos e uma tabela de seleção de categorias, os jogos e as categorias estão contidos numa grid onde implementamos a funcionalidade "Media Query Css" sugerida pelo professor para melhorar a responsividade.
 
-Ecrã no computador:
+Tabela de jogos no ecrã do computador em fullscreen:
 ![image](https://github.com/user-attachments/assets/50ab49fc-32d8-403e-849d-eb3c952a869e)
-
+Tabela de jogos no ecrã do computador com a janela diminuida:
+![image](https://github.com/user-attachments/assets/8042141d-91d4-4499-a188-392dc506d06c)
 
 
 Tecnologias Utilizadas:
